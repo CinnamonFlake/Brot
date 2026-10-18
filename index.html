@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="only light">
 <meta name="theme-color" content="#FCCA59">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -27,12 +28,8 @@
   --bg:var(--yellow); --card:#FFFFFF; --fg:var(--ink); --fg2:#33293F; --line:var(--ink); --shadow:var(--ink);
   --font-head:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
   --font-body:"Nunito","Trebuchet MS",system-ui,sans-serif;
-  --r:16px; --bw:3px;
+  --r:16px; --bw:3px; color-scheme:light;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#15121C; --card:#262033; --fg:#FFFFFF; --fg2:#E7E0F7; --line:#FFFFFF; --shadow:#000000; color-scheme:dark;}}
-:root[data-theme="dark"]{
-  --bg:#15121C; --card:#262033; --fg:#FFFFFF; --fg2:#E7E0F7; --line:#FFFFFF; --shadow:#000000; color-scheme:dark;}
 
 *{box-sizing:border-box}
 [hidden]{display:none!important}
